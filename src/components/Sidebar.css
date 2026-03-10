@@ -1,0 +1,5 @@
+.klyro-sidebar{width:220px;border-right:1px solid rgba(0,0,0,0.06);padding:14px;background:#fff}
+.klyro-sidebar nav{display:flex;flex-direction:column;gap:10px}
+.klyro-sidebar a{padding:10px 12px;border-radius:8px;color:#111;text-decoration:none;border:1px solid rgba(0,0,0,0.05);transition:all .2s ease}
+.klyro-sidebar a:hover{box-shadow:0 0 0 2px rgba(0,255,160,0.25);border-color:rgba(0,255,160,0.35)}
+.klyro-sidebar a.active{box-shadow:0 0 0 2px rgba(0,255,160,0.45);background:linear-gradient(180deg,rgba(0,255,160,0.06),rgba(0,224,255,0.06))}
