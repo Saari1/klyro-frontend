@@ -29,8 +29,12 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Build the App (Vite)
-        run: npm run build
+     - name: Build the app (Vite)
+        working-directory: ${{ env.APP_DIR }}
+        run: |
+          echo "Running Vite build via npx"
+          npx vite build
+
 
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
