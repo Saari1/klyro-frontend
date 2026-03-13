@@ -5,7 +5,8 @@ import App from "./App";
 import { PublicClientApplication } from "@azure/msal-browser";
 import { MsalProvider } from "@azure/msal-react";
 
-import { msalConfig } from "./msalConfig";
+// ✅ Corrected path — your msalConfig.js is inside src/auth/
+import { msalConfig } from "./auth/msalConfig";
 
 const msalInstance = new PublicClientApplication(msalConfig);
 
