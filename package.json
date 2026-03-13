@@ -9,7 +9,8 @@
     "preview": "vite preview --port 5173"
   },
   "dependencies": {
-    "@azure/msal-browser": "^4.29.0",
+    "@azure/msal-browser": "^4.29.1",
+    "@azure/msal-react": "^3.0.28",
     "classnames": "^2.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
